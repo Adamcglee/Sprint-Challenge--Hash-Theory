@@ -51,10 +51,10 @@ A     B     result
 ```
 A     B     result
 -------------------
-0     0       false
+0     0       true
 0     1       true
 1     0       false
-1     1       false
+1     1       true
 ```
 
 3. `¬(A ∧ B) ∨ ( (A ∧ C) ∧ ¬(B ∨ ¬C) )`   (alternate: `!(A && B) || ( (A && C) && !(B || !C) )`)
